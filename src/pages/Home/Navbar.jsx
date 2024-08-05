@@ -69,7 +69,7 @@ function Navbar(props){
             <nav className="nav" id="nav">
                 <ul className="nav-list">
                     <li><Link to={"/"}>Home</Link></li>
-                    <li><Link to={"/search"}>Movies</Link></li>
+                    <li><Link to={"/search/:q"}>Movies</Link></li>
                     <li><a>TV Shows</a></li>
                     <li><a>New & Popular</a></li>
                     <li><a>My List</a></li>
